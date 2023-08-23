@@ -25,6 +25,7 @@ sd-crypto = { path = "../crates/crypto", features = [
 	"serde",
 	"keymanager",
 ] }
+sd-pdf = { path = "../crates/pdf" }
 sd-heif = { path = "../crates/heif", optional = true }
 sd-file-ext = { path = "../crates/file-ext" }
 sd-sync = { path = "../crates/sync" }
